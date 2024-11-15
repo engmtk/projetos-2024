@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projetos C#\\consultaAvancada\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0534CDCD-5FB8-437D-B865-78B2BD2427EA}|consultaAvancada\\consultaAvancada.csproj|d:\\projetos c#\\consultaavancada\\consultaavancada\\views\\consultaavancada\\consultaavancada.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0534CDCD-5FB8-437D-B865-78B2BD2427EA}|consultaAvancada\\consultaAvancada.csproj|solutionrelative:consultaavancada\\views\\consultaavancada\\consultaavancada.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0534CDCD-5FB8-437D-B865-78B2BD2427EA}|consultaAvancada\\consultaAvancada.csproj|d:\\projetos c#\\consultaavancada\\consultaavancada\\controllers\\consultaavancadacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0534CDCD-5FB8-437D-B865-78B2BD2427EA}|consultaAvancada\\consultaAvancada.csproj|solutionrelative:consultaavancada\\controllers\\consultaavancadacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0534CDCD-5FB8-437D-B865-78B2BD2427EA}|consultaAvancada\\consultaAvancada.csproj|d:\\projetos c#\\consultaavancada\\consultaavancada\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0534CDCD-5FB8-437D-B865-78B2BD2427EA}|consultaAvancada\\consultaAvancada.csproj|solutionrelative:consultaavancada\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0534CDCD-5FB8-437D-B865-78B2BD2427EA}|consultaAvancada\\consultaAvancada.csproj|d:\\projetos c#\\consultaavancada\\consultaavancada\\models\\cadastropessoas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0534CDCD-5FB8-437D-B865-78B2BD2427EA}|consultaAvancada\\consultaAvancada.csproj|solutionrelative:consultaavancada\\models\\cadastropessoas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projetos C#\\consultaAvancada\\consultaAvancada\\Program.cs",
+              "RelativeDocumentMoniker": "consultaAvancada\\Program.cs",
+              "ToolTip": "D:\\Projetos C#\\consultaAvancada\\consultaAvancada\\Program.cs",
+              "RelativeToolTip": "consultaAvancada\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T21:25:22.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CadastroPessoas.cs",
+              "DocumentMoniker": "D:\\Projetos C#\\consultaAvancada\\consultaAvancada\\Models\\CadastroPessoas.cs",
+              "RelativeDocumentMoniker": "consultaAvancada\\Models\\CadastroPessoas.cs",
+              "ToolTip": "D:\\Projetos C#\\consultaAvancada\\consultaAvancada\\Models\\CadastroPessoas.cs",
+              "RelativeToolTip": "consultaAvancada\\Models\\CadastroPessoas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T21:10:44.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConsultaAvancada.cshtml",
+              "DocumentMoniker": "D:\\Projetos C#\\consultaAvancada\\consultaAvancada\\Views\\ConsultaAvancada\\ConsultaAvancada.cshtml",
+              "RelativeDocumentMoniker": "consultaAvancada\\Views\\ConsultaAvancada\\ConsultaAvancada.cshtml",
+              "ToolTip": "D:\\Projetos C#\\consultaAvancada\\consultaAvancada\\Views\\ConsultaAvancada\\ConsultaAvancada.cshtml",
+              "RelativeToolTip": "consultaAvancada\\Views\\ConsultaAvancada\\ConsultaAvancada.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T21:00:36.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConsultaAvancadaController.cs",
+              "DocumentMoniker": "D:\\Projetos C#\\consultaAvancada\\consultaAvancada\\Controllers\\ConsultaAvancadaController.cs",
+              "RelativeDocumentMoniker": "consultaAvancada\\Controllers\\ConsultaAvancadaController.cs",
+              "ToolTip": "D:\\Projetos C#\\consultaAvancada\\consultaAvancada\\Controllers\\ConsultaAvancadaController.cs",
+              "RelativeToolTip": "consultaAvancada\\Controllers\\ConsultaAvancadaController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAmwGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T20:58:25.267Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

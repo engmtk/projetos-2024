@@ -1,0 +1,59 @@
+﻿@model IEnumerable<consultaAvancada.Models.CadastroPessoas>
+
+@{
+    ViewBag.Title = "Consulta Avançada";
+}
+
+<h2>Consulta Avançada</h2>
+
+<!-- Formulário de consulta avançada -->
+<form asp-action="ExecutarConsultaAvancada" asp-controller="ConsultaAvancada" method="post">
+    <button type="submit" class="btn btn-primary">Executar Consulta Avançada</button>
+</form>
+
+<br />
+
+<!-- Exibir os dados retornados somente se houver registros -->
+@if (Model != null && Model.Any())
+
+{
+    <div>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>CPF</th>
+                    <th>CNPJ</th>
+                    <th>Nome Pessoa Física</th>
+                    <th>Nome Pessoa Jurídica</th>
+                    <th>Data de Criação</th>
+                    <th>País de Origem</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var pessoa in Model)
+
+                {
+                    <tr>
+                        <td>@pessoa.CPF</td>
+                        <td>@pessoa.CNPJ</td>
+                        <td>@pessoa.NomePessoaFisica</td>
+                        <td>@pessoa.NomePessoaJuridica</td>
+                        <td>@pessoa.DataCriacaoCadastro.ToString("dd/MM/yyyy")</td>
+                        <td>@pessoa.PaisOrigem</td>
+                        <td>@pessoa.Email</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Botão de exportação para Excel -->
+    <div style="position: fixed; top: 10px; right: 10px;">
+        <form asp-action="ExportarParaExcel" asp-controller="ConsultaAvancada" method="post">
+            <button type="submit" class="btn btn-success">
+                <i class="fas fa-file-excel"></i> Exportar para Excel
+            </button>
+        </form>
+    </div>
+}
